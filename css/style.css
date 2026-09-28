@@ -202,22 +202,33 @@ li {
 }
 /* Feature-section CSS End Here */
 
-/* 
-const names: string[] = ["rahim"];
-
-const obj = {
-name : "Karim", 
-age : 24, 
-isAdmin : true, 
+/* Portfolio-section CSS Start Here */
+.portfolio-section {
+  width: 100%;
+  float: left;
+  padding: 80px 0;
+  background: #f6f9f9;
 }
 
-const objType : {
-    name : string, 
-    age : number, 
-    isAdmin : boolean,
-} = {
- name : "Rahim", 
- age : 22, 
- isAdmin : false, 
+.portfolio-section .title {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-bottom: 60px;
 }
- */
+
+.portfolio-section .title h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.portfolio-section .title p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #999;
+}
+/* Portfolio-section CSS End Here */
