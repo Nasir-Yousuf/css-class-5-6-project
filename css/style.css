@@ -137,6 +137,7 @@ li {
   transition: 0.5s;
   display: inline-block;
   text-transform: capitalize;
+  border-radius: 15px;
 }
 /* Banner Section Code End Here  */
 
@@ -231,4 +232,118 @@ li {
   line-height: 24px;
   color: #999;
 }
+
+.gap {
+  margin-top: 15px;
+}
+
+.portfolio-inner {
+  position: relative;
+}
+
+.port-hover {
+  width: 93.3%;
+  height: 97.5%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgb(25, 156, 235, 0);
+  transition: 0.6s;
+  /* display: none; */
+}
+
+.inner-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.portfolio-inner:hover .port-hover {
+  display: block;
+  background: rgb(25, 156, 235, 0.8);
+}
+
+.port-hover a {
+  margin: 0 5px;
+}
 /* Portfolio-section CSS End Here */
+
+/* Stay-section CSS Start Here */
+.stay-section {
+  width: 100%;
+  float: left;
+  padding: 80px 0;
+  background: url("./../img/Stay.png") center top no-repeat;
+  background-size: cover;
+}
+
+.stay-section .title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.stay-section .title h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.stay-section .title p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #999;
+}
+/* Stay-section CSS End Here */
+
+/* Form Section  CSS Start Here */
+.main-form {
+  width: 55%;
+  margin: 0 auto;
+}
+.form-group {
+  margin: 10px 0;
+}
+
+.form-control {
+  width: 95%;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.col-md-8 {
+  width: 66.66%;
+  float: left;
+}
+span {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.btn-primary {
+  background: transparent;
+  padding: 10px 25px;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #15a4fa;
+  border-radius: 2px;
+  transition: 1;
+}
+
+.btn-primary:hover {
+  background: #15a4fa;
+  color: #fff;
+}
+
+.text-right {
+  text-align: right;
+}
+/* Form Section  CSS End Here */
